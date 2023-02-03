@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <link rel='stylesheet' href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>My Movie blog</title>
+</head>
+
+<body>
+
+
+  <!--js-->>
+  
+  <script>
+
+    //for 1 star rating
+    function myFunction() {
+      var txt;
+      if (confirm("You gave 1 star to this movie")) {
+        txt = "This is awesome movie";
+      } else {
+        txt = "I dont like this movie";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+
+    //for 2 star rating
+    function myFunction2() {
+      var txt2;
+      if (confirm("You gave 2 star to this movie")) {
+        txt2 = "This is awesome movie";
+      } else {
+        txt2 = "I dont like this movie";
+      }
+      document.getElementById("demo2").innerHTML = txt2;
+    }
+
+    //for 3 star rating
+    function myFunction3() {
+      var txt2;
+      if (confirm("You gave 3 star to this movie")) {
+        txt3 = "This is awesome movie";
+      } else {
+        txt3 = "I dont like this movie";
+      }
+      document.getElementById("demo3").innerHTML = txt3;
+    }
+
+      //for 4 star rating
+    function myFunction4() {
+      var txt4;
+      if (confirm("You gave 4 star to this movie")) {
+        txt4 = "This is awesome movie";
+      } else {
+        txt4 = "I dont like this movie";
+      }
+      document.getElementById("demo4").innerHTML = txt4;
+    }
+
+     //for 5 star rating
+    function myFunction5() {
+      var txt5;
+      if (confirm("You gave 5 star to this movie")) {
+        txt5 = "This is awesome movie";
+      } else {
+        txt5 = "I dont like this movie";
+      }
+      document.getElementById("demo5").innerHTML = txt5;
+    }
+
+
+  </script>
+  <nav class="white">
+    <div class="nav-wrapper blue-text">
+      <a href="#" class="blue-text">
+        <img src="img/logo.png" class="pglogo" />
+      </a>
+      <ul id="nav-mobile" class="right hide-on-lsc-and-down">
+        <li><button href="sass.html" class="mynav">New Movies</button></li>
+        <li><button href="badges.html" class="mynav">Categories</button></li>
+        <li><button href="collapsible.html" class="mynav">Blockbuster Movies</button></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="myeventrow">
+    <div class="container">
+      <div class="backlnk">
+        <i class="material-icons myicn">keyboard_backspace</i>
+        <div class="backlnktxt">Back to Events</div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <img class="eventpicbox " src="img/lsc.jpg" />
+        </div>
+      </div>
+      <div class="row mt">
+        <div class="col s12">
+          <div class="col s12 m8">
+            <div class="eventinfobox">
+              <div class="eventdate">
+                Aug 11, 2022
+              </div>
+              <div class="eventheading">
+                <b>Laal Singh Chaddha</b>
+              </div>
+              <div class="eventpara">
+                <p>Laal Singh Chaddha is a 2022 Indian Hindi-language colscy-drama film directed by Advait Chandan and
+                  written by Atul Kulkarni. Produced by Aamir Khan Productions and Viacom18 Studios, it is a remake of
+                  the 1994 American film Forrest Gump which itself is an adaptation of the novel of the same name by
+                  Winston Groom.[4] The film stars Aamir Khan as the title character alongside Kareena Kapoor, Naga
+                  Chaitanya (in his Hindi film debut) and Mona Singh. The adaptation of Forrest Gump underwent a series
+                  of changes over a period of two decades, with Kulkarni spending the first ten years adapting the
+                  script, and another ten years purchasing the remake rights.[6] Aamir Khan bought the rights of the
+                  film in early 2018 with the help of Los Angeles-based producer and director Radhika Chaudhari and
+                  announced the film officially on 14 March 2019, with its title.[7] The film's score is by Tanuj Tiku,
+                  while its original songs are composed by Pritam and their lyrics are written by Amitabh
+                  Bhattacharya.[8] Laal Singh Chaddha has been fillsc in more than 100 Indian locations.[9] Principal
+                  photography began in October 2019 and concluded in September 2021, after multiple delays due to the
+                  COVID-19 pandemic.[10] The film was initially scheduled for cinema release during multiple dates in
+                  2020-2022, but kept getting delayed due to the production halt caused by the pandemic, and was
+                  theatrically released worldwide on 11 August 2022, coinciding with Raksha Bandhan and Independence
+                  Day.[11] It opened to mostly positive reviews with praise for its adaptation to the new setting,
+                  faithfulness to the source material, depth, soundtrack, background score and emotion, but received
+                  criticism for Khan's performance. Against its ₹180 crore budget, the film generated a worldwide
+                  revenue of less than ₹90 crore in its first week and was thus declared a box office bomb,[12]
+                  although, it became the highest-grossing Hindi film of 2022 at international box office, earning more
+                  than Gangubai Kathiawadi and The Kashmir Files.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="eventticketbox">
+              <div class="eventtickethead">
+                Should Watch OR Not
+              </div>
+              <div class="eventticketcontent">
+                <p>Definitely worth the watch and I will watch it again. Since I am not an Indian, really do not
+                  understand why this movie is getting too much of hate, it's a beautiful movie! I can tell many people
+                  are giving rating without watching the movie. It is a must watch!</p>
+                <!-- <ul>
+                  <li>
+                    <i class="material-icons grey-text text-lighten-1 tiny">location_on</i>
+                    <div class="address">
+                      Av. Naciones Unidas entre Av. 6 de dicimbrey Av. de los Shyris Quito Ecuador
+                    </div>
+                  </li>
+                  <li>
+                    <i class="material-icons grey-text text-lighten-1 tiny">phone</i>
+                    <div class="address">0000-000-000 </div>
+                  </li>
+                  <li>
+                    <i class="material-icons grey-text text-lighten-1 tiny">access_time</i>
+                    <div class="address">10:00AM to 10:00PM </div>
+                  </li>
+                  <li>
+                    <i class="material-icons grey-text text-lighten-1 tiny">public</i>
+                    <div class="address">www.quicentro.com </div>
+                  </li>
+                </ul> -->
+              </div>
+              <div class="eventticketbtn">
+
+
+
+
+
+
+
+              </div>
+              <div class="eventticketbtn">
+                
+                    <button onclick="myFunction()"><img src="img/star.png" width="30" height="30" id="demo"></button>
+                    <button onclick="myFunction2()"><img src="img/star.png" width="30" height="30" id="demo2"></button>
+                    <button onclick="myFunction3()"><img src="img/star.png" width="30" height="30"  id="demo3"></button> 
+                    <button onclick="myFunction4()"><img src="img/star.png" width="30" height="30"  id="demo4"></button>
+                    <button onclick="myFunction5()"><img src="img/star.png" width="30" height="30"  id="demo5"></button>
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <h5> MY LATEST BLOG </h5>
+          <div class="footeraddr">
+            <b>Goner Road Jaipur</b>
+            <b>Rajasthan</b><br /> +91 8209311027
+          </div>
+        </div>
+        <div class="col m4">
+          <img src="img/logo.png" class="pglogo1" />
+        </div>
+        <div class="col s4" id="addr">
+          <h5> MY LATEST BLOG </h5>
+          <div class="footeraddr">
+            +91 8209311027 <br /> Manvindersinghgill1@gmail.com
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
